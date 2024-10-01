@@ -7,12 +7,19 @@
 </head>
 <body>
     <script>
-        var promptt = prompt("WRITE A PARAGRAPH ABOUT YOURSELF UNDER 11 WORDS");
+        /* var promptt = prompt("WRITE A PARAGRAPH ABOUT YOURSELF UNDER 11 WORDS");
         var prompt_length = promptt.length  ;
         var prompttunder11 = promptt.slice(0,10);
         alert("This is the amt of words entered: " + prompt_length + " This is the amount of words left for you: " + (10 - prompt_length) + " and this is your text: " + prompttunder11  );
-        var hello_world= prompt("hello world")
-    </script>
+        var hello_world= prompt("hello world") */
+        var name = prompt("hi what is your name , i will print your name in capital letters(only your initial letter :)");
+        var Lettertobechanged = name.slice(0,1);
+        var ChangedLetter =   Lettertobechanged.toUpperCase();
+        var RestWord =  name.slice(1 , name.length);
+        var Result = ChangedLetter + RestWord ; 
+        alert("HEY " + Result);
+ 
+</script>
     
 </body>
 </html>
